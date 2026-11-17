@@ -1,0 +1,7 @@
+com\sigipt\modelo\Producto.class
+com\sigipt\controlador\ProductoServlet.class
+com\sigipt\dao\InventarioDAO.class
+com\sigipt\dao\ProductoDAO.class
+com\sigipt\modelo\Inventario.class
+com\sigipt\config\Conexion.class
+com\sigipt\controlador\InventarioServlet.class
