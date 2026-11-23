@@ -4,13 +4,13 @@ import com.sigipt.dao.InventarioDAO;
 import com.sigipt.dao.ProductoDAO;
 import com.sigipt.modelo.Inventario;
 import com.sigipt.modelo.Producto;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.annotation.WebServlet;
+import jakarta.servlet.http.HttpServlet;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.List;
-import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 
 @WebServlet(name = "InventarioServlet", urlPatterns = {"/InventarioServlet"})
 public class InventarioServlet extends HttpServlet {

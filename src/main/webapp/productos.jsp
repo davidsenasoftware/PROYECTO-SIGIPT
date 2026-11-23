@@ -133,25 +133,25 @@
 
             <div class="campo">
                 <label>Modelo:</label>
-                <input type="text" name="modelo" required placeholder="Ej. Camiseta Polo"
+                <input type="text" name="modelo" required placeholder="Ej. deportivo"
                        value="<%= editando ? productoEditar.getModelo() : "" %>">
             </div>
 
             <div class="campo">
                 <label>Talla:</label>
-                <input type="text" name="talla" required placeholder="Ej. S, M, L, XL"
+                <input type="text" name="talla" required placeholder="Ej. 35"
                        value="<%= editando ? productoEditar.getTalla() : "" %>">
             </div>
 
             <div class="campo">
                 <label>Color:</label>
-                <input type="text" name="color" required placeholder="Ej. Azul Marino"
+                <input type="text" name="color" required placeholder="Ej. cafe"
                        value="<%= editando ? productoEditar.getColor() : "" %>">
             </div>
 
             <div class="campo">
                 <label>Descripción:</label>
-                <input type="text" name="descripcion" required placeholder="Ej. Algodón 100%"
+                <input type="text" name="descripcion" required placeholder="Ej. marca Nike"
                        value="<%= editando ? productoEditar.getDescripcion() : "" %>">
             </div>
 
